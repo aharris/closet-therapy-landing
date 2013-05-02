@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 5, ../sass/screen.sass */
+/* line 8, ../sass/screen.sass */
 body {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #320809), color-stop(100%, #af3250));
   background: -webkit-linear-gradient(#320809, #af3250);
@@ -80,7 +80,7 @@ body {
   padding: 6em 1em;
 }
 
-/* line 15, ../sass/screen.sass */
+/* line 18, ../sass/screen.sass */
 .container {
   background: rgba(0, 0, 0, 0.3);
   width: 90%;
@@ -99,29 +99,61 @@ body {
   box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.7);
 }
 
-/* line 24, ../sass/screen.sass */
+/* line 27, ../sass/screen.sass */
 h1 {
-  font-size: 6em;
+  font-size: 3em;
   font-weight: 800;
   margin: 0 0 0.5em;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   font-style: italic;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-/* line 37, ../sass/screen.sass */
+/* line 40, ../sass/screen.sass */
 h3 {
   font-size: 3em;
   font-weight: 800;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
+}
+
+@media (min-width: 700px) {
+  /* line 46, ../sass/screen.sass */
+  body {
+    border-top: 5em solid black;
+    border-bottom: 5em solid black;
+    padding: 6em 1em;
+  }
+
+  /* line 51, ../sass/screen.sass */
+  .container {
+    margin: 0 auto 3em;
+    padding: 80px 1em;
+  }
+
+  /* line 55, ../sass/screen.sass */
+  h1 {
+    font-size: 6em;
+    margin: 0 0 0.5em;
+  }
+
+  /* line 59, ../sass/screen.sass */
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+  }
+
+  /* line 63, ../sass/screen.sass */
+  h3 {
+    font-size: 3em;
+  }
 }
